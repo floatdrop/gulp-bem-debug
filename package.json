@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/floatdrop/gulp-bem-debug/issues"
   },
-  "homepage": "https://github.com/floatdrop/gulp-bem-debug"
+  "homepage": "https://github.com/floatdrop/gulp-bem-debug",
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "through2": "^0.6.1"
+  }
 }
