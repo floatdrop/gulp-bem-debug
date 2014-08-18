@@ -24,5 +24,10 @@
   "dependencies": {
     "chalk": "^0.5.1",
     "through2": "^0.6.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "should": "^4.0.4",
+    "stream-assert": "^0.2.0"
   }
 }
