@@ -2,6 +2,9 @@
 
 Prints info about passing by BEM objects in next format: `[level] bem path` or `title [level] bem path`
 
+![wow](https://cloud.githubusercontent.com/assets/365089/3955607/32d6dfd4-2703-11e4-9884-22000b93b8dc.png)
+
+
 ## Usage
 
 ```js
