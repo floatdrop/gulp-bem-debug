@@ -1,0 +1,24 @@
+{
+  "name": "gulp-bem-debug",
+  "version": "0.0.0",
+  "description": "Debug utility for BEM objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/floatdrop/gulp-bem-debug.git"
+  },
+  "keywords": [
+    "gulp",
+    "bem",
+    "debug"
+  ],
+  "author": "Vsevolod Strukchinsky <floatdrop@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/floatdrop/gulp-bem-debug/issues"
+  },
+  "homepage": "https://github.com/floatdrop/gulp-bem-debug"
+}
