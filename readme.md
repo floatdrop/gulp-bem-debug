@@ -1,5 +1,7 @@
 # gulp-bem-debug [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][depstat-image]][depstat-url]
 
+Prints info about passing by BEM objects in next format: `[level] bem path` or `title [level] bem path`
+
 ## Usage
 
 ```js
@@ -21,6 +23,19 @@ gulp.task('build', ['clean'], function () {
         .pipe(gulp.dest('./dist'));
 });
 ```
+
+## API
+
+### debug([options])
+
+Creates pass through stream, that will print debug information about BEM objects.
+
+##### options
+
+###### title
+Type: `String`  
+
+Title, that will prefix all messages in current Stream.
 
 ## License
 
