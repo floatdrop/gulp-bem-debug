@@ -1,6 +1,6 @@
 # gulp-bem-debug [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][depstat-image]][depstat-url]
 
-Prints info about passing by BEM objects in next format: `[level] bem path` or `title [level] bem path`
+Prints info about passing by BEM objects in next format: `[level] bem` or `title [level] bem`
 
 ![wow](https://cloud.githubusercontent.com/assets/365089/3955642/7a6a43f4-2703-11e4-8c67-f8132eff255b.png)
 

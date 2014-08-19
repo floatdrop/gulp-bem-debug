@@ -31,8 +31,7 @@ module.exports = function (options) {
 
     return through.obj(function(obj, enc, cb) {
         var message = title ? chalk.uniq(title) + ' ' : '';
-        message += '[' + chalk.uniq(obj.level) + '] ' + obj.bem + ' ';
-        message += chalk.gray(obj.path);
+        message += '[' + chalk.uniq(obj.level) + '] ' + obj.bem;
         console.log(message);
         cb(null, obj);
     });
