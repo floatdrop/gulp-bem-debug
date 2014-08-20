@@ -44,10 +44,10 @@ Title, that will prefix all messages in current Stream.
 MIT (c) 2014 Vsevolod Strukchinsky
 
 [npm-url]: https://npmjs.org/package/gulp-bem-debug
-[npm-image]: https://badge.fury.io/js/gulp-bem-debug.png
+[npm-image]: http://img.shields.io/npm/v/gulp-bem-debug.svg?style=flat
 
 [travis-url]: http://travis-ci.org/floatdrop/gulp-bem-debug
-[travis-image]: https://travis-ci.org/floatdrop/gulp-bem-debug.png?branch=master
+[travis-image]: http://img.shields.io/travis/floatdrop/gulp-bem-debug.svg?branch=master&style=flat
 
 [depstat-url]: https://david-dm.org/floatdrop/gulp-bem-debug
-[depstat-image]: https://david-dm.org/floatdrop/gulp-bem-debug.png?theme=shields.io
+[depstat-image]: http://img.shields.io/david/floatdrop/gulp-bem-debug.svg?style=flat
