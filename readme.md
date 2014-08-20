@@ -2,9 +2,7 @@
 
 Prints info about passing by BEM objects in next format: `[level] bem` or `title [level] bem`
 
-![wow](https://cloud.githubusercontent.com/assets/365089/3955642/7a6a43f4-2703-11e4-8c67-f8132eff255b.png)
-
-
+![Wow](https://cloud.githubusercontent.com/assets/365089/3979414/1df312f2-2854-11e4-8c9a-cc11cd754336.png)
 
 ## Usage
 
