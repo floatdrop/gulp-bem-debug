@@ -14,7 +14,7 @@ var concat = require('gulp-concat');
 
 var levels = [ 'desktop.blocks', 'desktop.bundles/index' ];
 
-gulp.task('build', ['clean'], function () {
+gulp.task('build', function () {
     var tree = bem.objects(levels).pipe(bem.tree());
     var deps = tree.deps('desktop.bundles/index/sepulka');
 
