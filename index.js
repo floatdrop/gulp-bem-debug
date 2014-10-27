@@ -1,5 +1,6 @@
 var through = require('through2');
 var chalk = require('chalk');
+var relative = require('path').relative;
 
 var colors = [
     //'black',
@@ -31,7 +32,7 @@ module.exports = function (options) {
 
     return through.obj(function(obj, enc, cb) {
         var message = title ? chalk.uniq(title) + ' ' : '';
-        message += '[' + chalk.uniq(obj.level) + '] ' + obj.bem;
+        message += '[' + chalk.uniq(relative(options.cwd || process.cwd(), obj.level)) + '] ' + obj.bem;
         console.log(message);
         cb(null, obj);
     });
